@@ -1,0 +1,21 @@
+{
+    "name": "afup/map",
+    "description": "",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "authors": [
+        {
+            "name": "Olivier Mansour",
+            "email": "omansour@gmail.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+	"willdurand/geocoder": "1.1.x-dev",
+	"kriswallsmith/buzz": "dev-master"
+    },
+    "minimum-stability": "dev"
+}
